@@ -5,5 +5,5 @@
 Primeiro passo: teste de mostragem de codigo
 
 ```
-sudo apt-get install
+node app.js
 ```
