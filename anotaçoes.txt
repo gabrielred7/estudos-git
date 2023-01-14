@@ -1,0 +1,16 @@
+COMANDOS Git BASICOS
+
+git pull ()
+
+Descrição: Busca e baixa conteudo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteudos.
+
+git log
+git log --oneline
+
+Descrição: Exibe os registros log dos commits.
+
+git status 
+
+Descrição: Lista todas a modificação feitas em arquivos ou no repositorio local
+
+
