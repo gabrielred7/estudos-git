@@ -1,16 +1,53 @@
 COMANDOS Git BASICOS
 
+git clone
+
+Descrição:  Cria-se uma cópia de desenvolvimento em um repositório local, e todas as alterações que você fizer serão gerenciadas a partir desse repositório
+
+  git clone <repositorio> <meu-projeto-clone>
+  Com o git clone você também pode clonar o repositório para uma pasta específica
+  
+  git clone -branch new_feature <repositorio>
+  Você também pode configurar o git clone e clonar o repositório a partir de uma branch específica
+ 
 git pull ()
 
 Descrição: Busca e baixa conteudo de repositórios remotos e fazer a atualização imediata ao repositório local para que os conteudos.
 
 git log
-git log --oneline
+Descrição: Serve para verificar o histórico de alterações, as mensagens de commits, o nome do autor daquele commit e outras informações sobre o projeto,
 
-Descrição: Exibe os registros log dos commits.
-
+  git log --oneline
+  Podemos visualizar todos os commits, um em cada linha com o comando
+  
+  git log -p
+  Se, em vez de menos informações, quisermos ver mais como as alterações do commit
+  
+  git log --author="user_name"
+  Também podemos pesquisar as informações do autor daquele commit
+  
+  git log --since=1.month.ago --until=1.day.ago
+  Pesquisar informações por data
+  
+  git log --pretty="format:%h %s"
+  Você também pode formatar a visualização das informações de commit 
+  
 git status 
 
 Descrição: Lista todas a modificação feitas em arquivos ou no repositorio local
 
+git push ()
+
+Descrição: Colocar as alterações geitas no repositorio local para o remoto (Github), pode ser escolher a branch
+
+git commit
+
+Descrição: criar uma nova versao do projeto no repositorio
+
+git restore
+
+Descrição: Vai fazer a gente voltar para um determinado momento da aplicação. 
+
+  git restore --source <hash>
+  Preciso indicar para o restore qual hash vamos utilizar. Para indicar qual hash vamos utilizar vou colocar --source e vou passar o hash.
 
