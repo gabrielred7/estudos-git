@@ -51,3 +51,22 @@ Descrição: Vai fazer a gente voltar para um determinado momento da aplicação
   git restore --source <hash>
   Preciso indicar para o restore qual hash vamos utilizar. Para indicar qual hash vamos utilizar vou colocar --source e vou passar o hash.
 
+git reset <>
+  
+Descrição: Serve para deletar um add
+
+git checkout -b <>
+
+Descrição: Serve para criar uma nova branch e muda automaticamente para ela
+
+git branch <>
+
+Desrição: Serve para criar uma nova branch mas não muda para ela
+
+git switch <>
+
+Descrição: Serve para trocar de branch
+
+git merge <>
+
+Descrição: Incorpora os commits feitos numa determinada branch para a branch atual (normalmente a main)
